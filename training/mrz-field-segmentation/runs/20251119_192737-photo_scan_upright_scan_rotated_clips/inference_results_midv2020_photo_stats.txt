@@ -1,0 +1,61 @@
+MRZ Field Segmentation - Inference Statistics
+============================================================
+
+Samples: 50
+Mean IoU: 0.491241
+Std IoU: 0.365666
+Median IoU: 0.584148
+Min IoU: 0.000000
+Max IoU: 0.901475
+
+Per-sample IoU scores:
+    1. srb_passport (photo)                     IoU: 0.476624
+    2. srb_passport (photo)                     IoU: 0.730243
+    3. grc_passport (photo)                     IoU: 0.005325
+    4. grc_passport (photo)                     IoU: 0.887683
+    5. grc_passport (photo)                     IoU: 0.078597
+    6. grc_passport (photo)                     IoU: 0.760550
+    7. srb_passport (photo)                     IoU: 0.000000
+    8. aze_passport (photo)                     IoU: 0.863650
+    9. lva_passport (photo)                     IoU: 0.876517
+   10. lva_passport (photo)                     IoU: 0.900117
+   11. srb_passport (photo)                     IoU: 0.828589
+   12. aze_passport (photo)                     IoU: 0.244695
+   13. aze_passport (photo)                     IoU: 0.833094
+   14. srb_passport (photo)                     IoU: 0.059609
+   15. grc_passport (photo)                     IoU: 0.668143
+   16. grc_passport (photo)                     IoU: 0.852533
+   17. grc_passport (photo)                     IoU: 0.848438
+   18. aze_passport (photo)                     IoU: 0.850462
+   19. aze_passport (photo)                     IoU: 0.822965
+   20. srb_passport (photo)                     IoU: 0.901475
+   21. grc_passport (photo)                     IoU: 0.693223
+   22. grc_passport (photo)                     IoU: 0.164027
+   23. grc_passport (photo)                     IoU: 0.858136
+   24. grc_passport (photo)                     IoU: 0.874226
+   25. aze_passport (photo)                     IoU: 0.832383
+   26. srb_passport (photo)                     IoU: 0.000000
+   27. grc_passport (photo)                     IoU: 0.004313
+   28. lva_passport (photo)                     IoU: 0.429393
+   29. srb_passport (photo)                     IoU: 0.000000
+   30. srb_passport (photo)                     IoU: 0.017693
+   31. lva_passport (photo)                     IoU: 0.876574
+   32. grc_passport (photo)                     IoU: 0.000000
+   33. aze_passport (photo)                     IoU: 0.000000
+   34. srb_passport (photo)                     IoU: 0.500154
+   35. aze_passport (photo)                     IoU: 0.827595
+   36. aze_passport (photo)                     IoU: 0.037538
+   37. grc_passport (photo)                     IoU: 0.000000
+   38. aze_passport (photo)                     IoU: 0.841795
+   39. srb_passport (photo)                     IoU: 0.495343
+   40. aze_passport (photo)                     IoU: 0.849210
+   41. lva_passport (photo)                     IoU: 0.005078
+   42. srb_passport (photo)                     IoU: 0.451265
+   43. lva_passport (photo)                     IoU: 0.834558
+   44. srb_passport (photo)                     IoU: 0.060269
+   45. srb_passport (photo)                     IoU: 0.843816
+   46. aze_passport (photo)                     IoU: 0.154120
+   47. srb_passport (photo)                     IoU: 0.782942
+   48. srb_passport (photo)                     IoU: 0.437943
+   49. lva_passport (photo)                     IoU: 0.018692
+   50. grc_passport (photo)                     IoU: 0.182438

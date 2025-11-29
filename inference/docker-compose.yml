@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mrz-inference-backend
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ../training/mrz-field-segmentation:/workspace/training/mrz-field-segmentation:ro
+      - ../training/mrz-field-segmentation/runs:/workspace/runs:ro
+    environment:
+      HOUGH_ENCODER_CHECKPOINT: "${HOUGH_ENCODER_CHECKPOINT}"
+      HED_MRZ_CHECKPOINT: "${HED_MRZ_CHECKPOINT}"
+      DEVICE: "${DEVICE:-cpu}"
+      MODEL_IMG_SIZE: "${MODEL_IMG_SIZE:-384}"
+      MODEL_N_ANGLES: "${MODEL_N_ANGLES:-128}"
+      MODEL_SINO_CH: "${MODEL_SINO_CH:-32}"
+      BACKEND_HOST: "${BACKEND_HOST:-0.0.0.0}"
+      BACKEND_PORT: "${BACKEND_PORT:-8000}"
+    # GPU support disabled for CPU-only systems
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mrz-inference-frontend
+    ports:
+      - "${FRONTEND_PORT:-8501}:8501"
+    environment:
+      BACKEND_URL: "${BACKEND_URL:-http://backend:8000}"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+networks:
+  default:
+    name: mrz-inference-network

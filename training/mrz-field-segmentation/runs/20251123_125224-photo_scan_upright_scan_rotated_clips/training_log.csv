@@ -1,0 +1,3 @@
+epoch,train_loss,val_mIoU_seg,val_mIoU_obb,best_iou_seg,epoch_time_s
+1,0.239337,0.073213,0.010451,0.073213,295.86
+2,0.143776,0.382155,0.361239,0.382155,129.68

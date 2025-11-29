@@ -1,0 +1,111 @@
+MRZ Field Segmentation - Inference Statistics
+============================================================
+
+Samples: 100
+Mean IoU: 0.414998
+Std IoU: 0.194162
+Median IoU: 0.460836
+Min IoU: 0.000000
+Max IoU: 0.700652
+
+Per-sample IoU scores:
+    1. srb_passport (clips)                     IoU: 0.490168
+    2. 34_mda_passport (unknown)                IoU: 0.228739
+    3. lva_passport (clips)                     IoU: 0.530687
+    4. 32_lva_passport (unknown)                IoU: 0.587111
+    5. 17_deu_passport_old (unknown)            IoU: 0.321735
+    6. srb_passport (clips)                     IoU: 0.372497
+    7. 18_dza_passport (unknown)                IoU: 0.635792
+    8. aze_passport (clips)                     IoU: 0.610775
+    9. srb_passport (clips)                     IoU: 0.565583
+   10. grc_passport (clips)                     IoU: 0.222616
+   11. grc_passport (clips)                     IoU: 0.067197
+   12. 05_aze_passport (unknown)                IoU: 0.617367
+   13. grc_passport (clips)                     IoU: 0.408125
+   14. 17_deu_passport_old (unknown)            IoU: 0.408394
+   15. aze_passport (clips)                     IoU: 0.675394
+   16. 18_dza_passport (unknown)                IoU: 0.684176
+   17. srb_passport (clips)                     IoU: 0.477304
+   18. lva_passport (clips)                     IoU: 0.028322
+   19. srb_passport (clips)                     IoU: 0.069906
+   20. lva_passport (clips)                     IoU: 0.317536
+   21. 16_deu_passport_new (unknown)            IoU: 0.520112
+   22. 45_ukr_passport (unknown)                IoU: 0.625332
+   23. lva_passport (clips)                     IoU: 0.468494
+   24. 28_hun_passport (unknown)                IoU: 0.697694
+   25. lva_passport (clips)                     IoU: 0.503700
+   26. 41_srb_passport (unknown)                IoU: 0.189547
+   27. 16_deu_passport_new (unknown)            IoU: 0.000000
+   28. grc_passport (clips)                     IoU: 0.126608
+   29. 27_hrv_passport (unknown)                IoU: 0.622645
+   30. 16_deu_passport_new (unknown)            IoU: 0.578146
+   31. aze_passport (photo)                     IoU: 0.700652
+   32. 11_cze_passport (unknown)                IoU: 0.503083
+   33. 34_mda_passport (unknown)                IoU: 0.209807
+   34. srb_passport (scan_upright)              IoU: 0.453178
+   35. aze_passport (photo)                     IoU: 0.270637
+   36. grc_passport (clips)                     IoU: 0.560928
+   37. 34_mda_passport (unknown)                IoU: 0.186956
+   38. 17_deu_passport_old (unknown)            IoU: 0.372833
+   39. aze_passport (clips)                     IoU: 0.435742
+   40. 11_cze_passport (unknown)                IoU: 0.569096
+   41. 11_cze_passport (unknown)                IoU: 0.558443
+   42. srb_passport (clips)                     IoU: 0.027343
+   43. lva_passport (clips)                     IoU: 0.589379
+   44. lva_passport (scan_upright)              IoU: 0.495030
+   45. 16_deu_passport_new (unknown)            IoU: 0.555093
+   46. 17_deu_passport_old (unknown)            IoU: 0.375501
+   47. 06_bra_passport (unknown)                IoU: 0.268114
+   48. 27_hrv_passport (unknown)                IoU: 0.365709
+   49. 18_dza_passport (unknown)                IoU: 0.569830
+   50. aze_passport (clips)                     IoU: 0.587405
+   51. grc_passport (scan_upright)              IoU: 0.393054
+   52. srb_passport (clips)                     IoU: 0.134934
+   53. 45_ukr_passport (unknown)                IoU: 0.490927
+   54. grc_passport (scan_rotated)              IoU: 0.000000
+   55. lva_passport (clips)                     IoU: 0.300497
+   56. lva_passport (clips)                     IoU: 0.331042
+   57. grc_passport (clips)                     IoU: 0.309672
+   58. lva_passport (clips)                     IoU: 0.110702
+   59. aze_passport (clips)                     IoU: 0.059759
+   60. aze_passport (clips)                     IoU: 0.236100
+   61. grc_passport (clips)                     IoU: 0.490449
+   62. lva_passport (clips)                     IoU: 0.300116
+   63. 41_srb_passport (unknown)                IoU: 0.236249
+   64. 32_lva_passport (unknown)                IoU: 0.595801
+   65. 06_bra_passport (unknown)                IoU: 0.231721
+   66. lva_passport (clips)                     IoU: 0.485619
+   67. 46_ury_passport (unknown)                IoU: 0.673132
+   68. srb_passport (clips)                     IoU: 0.555627
+   69. 18_dza_passport (unknown)                IoU: 0.562262
+   70. 46_ury_passport (unknown)                IoU: 0.656823
+   71. 41_srb_passport (unknown)                IoU: 0.267916
+   72. aze_passport (clips)                     IoU: 0.402417
+   73. grc_passport (clips)                     IoU: 0.318409
+   74. 32_lva_passport (unknown)                IoU: 0.038600
+   75. srb_passport (scan_upright)              IoU: 0.353129
+   76. 32_lva_passport (unknown)                IoU: 0.517113
+   77. 11_cze_passport (unknown)                IoU: 0.593538
+   78. 28_hun_passport (unknown)                IoU: 0.697285
+   79. lva_passport (photo)                     IoU: 0.432161
+   80. 18_dza_passport (unknown)                IoU: 0.394936
+   81. 17_deu_passport_old (unknown)            IoU: 0.000000
+   82. lva_passport (clips)                     IoU: 0.577399
+   83. srb_passport (clips)                     IoU: 0.621378
+   84. lva_passport (clips)                     IoU: 0.159861
+   85. aze_passport (clips)                     IoU: 0.588136
+   86. grc_passport (clips)                     IoU: 0.362766
+   87. srb_passport (clips)                     IoU: 0.173752
+   88. lva_passport (clips)                     IoU: 0.246442
+   89. 11_cze_passport (unknown)                IoU: 0.575658
+   90. 05_aze_passport (unknown)                IoU: 0.565646
+   91. 28_hun_passport (unknown)                IoU: 0.615201
+   92. aze_passport (clips)                     IoU: 0.599779
+   93. 18_dza_passport (unknown)                IoU: 0.485724
+   94. 18_dza_passport (unknown)                IoU: 0.614184
+   95. aze_passport (clips)                     IoU: 0.581671
+   96. lva_passport (clips)                     IoU: 0.316435
+   97. 32_lva_passport (unknown)                IoU: 0.585714
+   98. 11_cze_passport (unknown)                IoU: 0.668243
+   99. grc_passport (scan_rotated)              IoU: 0.308425
+  100. 17_deu_passport_old (unknown)            IoU: 0.376913
