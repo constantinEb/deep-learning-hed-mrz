@@ -46,9 +46,12 @@ Configuration files: `config_hed_mrz.py` and `config_hough_encoder.py`
 
 ### 5. Run Inference
 
+
 ```bash
-cd training/mrz-field-segmentation
-python inference_test.py --run_dir runs/hed-mrz-YYYYMMDD_HHMMSS-modalities --trainer hed_mrz
+cd inference/
+docker-compose up -d
 ```
 
-Replace `YYYYMMDD_HHMMSS` with training run timestamp. PDF reports are auto-generated.
+Access the web interface:
+- **Streamlit UI**: http://localhost:8501 (upload images and visualize results)
+- **API Documentation**: http://localhost:8000/docs
